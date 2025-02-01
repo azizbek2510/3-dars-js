@@ -1,0 +1,45 @@
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 150px;
+  background-color: yellow;
+  color: white;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 170px;
+}
+
+.hours,
+.minut,
+.second {
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+  padding: 20px;
+  border-radius: 15px;
+
+}
+
+body {
+  background: linear-gradient(to right, #f12711, #f5af19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h2 {
+  font-size: 40px;
+}
+
+div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
